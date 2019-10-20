@@ -9,11 +9,17 @@ Feature: Basic test
     Then I should search job
 
 
-    Scenario: Basic test 2
+    Scenario Outline: Basic test 2
     Given I am on "home" page
     Then I open Careers page
     Then Careers page should be displayed
       And I submit join form
     Then Home page should be displayed
-    When I perform a search of "search" with "Blocker" value
+    When I perform a search of "search" with <search> value
       Then Title should be displayed
+
+    Exemple:
+    |search|
+    |Blocker|
+    |Cloud|
+    |Blockchain|
