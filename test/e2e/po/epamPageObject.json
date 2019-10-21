@@ -1,0 +1,50 @@
+{
+    "About": {
+        "isCollection": true,
+        "selector": "[href='/about']"
+    },
+    "About Button": {
+        "isCollection": false,
+        "selector": ".top-navigation__item [href='/about']"
+    },
+    "About video": {
+        "isCollection": true,
+        "selector": ".ytp-cued-thumbnail-overlay"
+    },
+    "Nav Bar item": {
+        "isCollection": true,
+        "selector": ".top-navigation__item"
+    },
+    "Career":{
+        "isCollection":false,
+        "selector":"[href='/careers']"
+    },
+    "Career Button": {
+        "isCollection": true,
+        "selector": ".top-navigation__item [href='/careers']"
+    },
+    "jobID": {
+        "isCollection": false,
+        "selector": "[id='new_form_job_search_1445745853_copy-keyword']"
+    },
+    "Find button": {
+        "isCollection":false,
+        "selector":".recruiting-search__submit"
+    },
+    "Dropdown": {
+        "isCollection":false,
+        "selector": ".autocomplete-suggestions"
+    },
+    "Apply button": {
+        "isCollection":false,
+        "selector":".search-result__item-apply"
+    },
+    "Location":{
+        "isCollection":false,
+        "selector":".select2-selection__rendered"
+    },
+    "Skills":{
+        "isCollection":false,
+        "selector":".recruiting-search__column"
+    }
+}
